@@ -1,0 +1,11 @@
+// body{
+// background-image: url('https://unsplash.com/photos/a-view-of-a-mountain-range-with-a-sunset-in-the-background-OZ9lTClIAb0');
+// background-size: cover;
+// }
+input.ng-invalid.ng-touched,
+select.ng-invalid.ng-touched,
+input.ng-invalid.ng-dirty,
+select.ng-invalid.ng-dirty
+{
+    border: 2px solid red;
+}
